@@ -1,4 +1,4 @@
-"""Calcul de la moyenne pondérée d'un élève."""
+"""fonction de Calcul de la moyenne pondérée d'un élève."""
 import csv
 
 
