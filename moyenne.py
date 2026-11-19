@@ -1,7 +1,6 @@
 """fonction de Calcul de la moyenne pondérée d'un élève."""
 import csv
 
-
 def moyenne_ponderee(notes):
     """Retourne la moyenne sur 20, arrondie à 2 décimales.
 
@@ -23,4 +22,5 @@ def lire_notes(chemin):
 
 if __name__ == "__main__":
     notes = lire_notes("donnees/notes.csv")
-    print("Moyenne :", moyenne_ponderee(notes))
+    #print("Moyenne :", moyenne_ponderee(notes))
+    print ("afficher la mention ")
